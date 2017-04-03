@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">e-Learning</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_cse">CSEActivity</string>
+    <string name="portAddress">http://192.168.88.4/eLearning/</string>
+    <string name="title_activity_vid">VidActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

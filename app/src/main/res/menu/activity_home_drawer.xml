@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cse"
+            android:icon="@drawable/ic_laptop_mac_black_24dp"
+            android:title="Computer Science Engineering" />
+        <item
+            android:id="@+id/nav_enc"
+            android:icon="@drawable/ic_devices_other_black_24dp"
+            android:title="Electronics And Communication" />
+        <item
+            android:id="@+id/nav_civil"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="Civil Engineering" />
+        <item
+            android:id="@+id/nav_mechanical"
+            android:icon="@drawable/ic_build_black_24dp"
+            android:title="Mechanical Engineering" />
+
+       <item
+           android:id="@+id/nav_electrical"
+           android:icon="@drawable/ic_format_size_black_24dp"
+           android:title="Electrical Engineering" />
+
+    </group>
+
+
+</menu>

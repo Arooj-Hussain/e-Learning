@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="android.software.com.e_learning.HomeActivity"
+    android:background="#000000">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardView_ebooks"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardPreventCornerOverlap="true"
+        card_view:cardElevation="@dimen/cardview_compat_inset_shadow">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:backgroundTint="#ffffff"
+            app:backgroundTintMode="src_in"
+            android:src="@drawable/book_bkgnd2a1"
+           />
+        <TextView
+            android:id="@+id/textView_ebooks"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:onClick="card_onClick"
+            android:text="eBooks"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:paddingTop="50dp"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardView_videos"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:onClick="card_onClick"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardPreventCornerOverlap="true"
+        card_view:cardElevation="@dimen/cardview_compat_inset_shadow">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/videocopy1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:id="@+id/textView_videos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Videos"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:paddingTop="50dp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardView_notes"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:onClick="card_onClick"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardPreventCornerOverlap="true"
+        card_view:cardElevation="@dimen/cardview_compat_inset_shadow">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:backgroundTint="#ffffff"
+            app:backgroundTintMode="src_in"
+            android:src="@drawable/notey1"
+            />
+        <TextView
+            android:id="@+id/textView_notes"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Notes"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:paddingTop="50dp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardView_gate"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:onClick="card_onClick"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardPreventCornerOverlap="true"
+        card_view:cardElevation="@dimen/cardview_compat_inset_shadow">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:backgroundTint="#ffffff"
+            app:backgroundTintMode="src_in"
+            android:src="@drawable/test2copy1"
+           />
+        <TextView
+            android:id="@+id/textView_gate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="GATE Material"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:paddingTop="50dp"/>
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>
